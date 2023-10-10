@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/bcon_65_project-thestark/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusFrame</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/bcon_65_project-thestark/assets/index-90c20ea8.js"></script>
+    <link rel="stylesheet" href="/bcon_65_project-thestark/assets/index-6327594c.css">
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <div class="background">
+      <header class="header">
+  <div class="header-container container">
+    <nav class="header-nav">
+      <a class="header-logo" href="">
+        <svg class="header-logo-icon" width="123" height="16">
+          <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-logo"></use>
+        </svg>
+      </a>
+
+      <ul class="header-list">
+        <li class="header-list-item">
+          <a class="header-list-link" href="#about">About us</a>
+        </li>
+        <li class="header-list-item">
+          <a class="header-list-link" href="#courses">Our courses</a>
+        </li>
+        <li class="header-list-item">
+          <a class="header-list-link" href="#mentors">Our mentors</a>
+        </li>
+        <li class="header-list-item">
+          <a class="header-list-link" href="#reviews">Reviews</a>
+        </li>
+        <li class="header-list-item">
+          <a class="header-list-link" href="#footer">Contacts</a>
+        </li>
+      </ul>
+      <div class="mobail-header-icon">
+        <a class="header-logo-photo-link" href="#sign"
+          ><svg class="header-logo-photo" width="16" height="16">
+            <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-header"></use>
+          </svg>
+        </a>
+        <button
+          aria-label="button-menu"
+          class="button-header js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="button-menu-icon" width="32" height="28">
+            <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-header-button"></use>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <button class="toogle-menu" type="button">Sign up</button>
+  </div>
+</header>
+
+<div class="menu-conteiner js-menu-container" id="mobile-menu">
+  <div class="div-menu-conteiner">
+    <button class="menu-toggle js-close-menu">
+      <svg class="menu-toggle-icon" width="32" height="32">
+        <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-x"></use>
+      </svg>
+    </button>
+    <ul class="mobile-menu list">
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link link current-menu" href="#about">
+          About us
+        </a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link link" href="#courses"> Our courses </a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link link" href="#mentors"> Our mentors </a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link link" href="#reviews"> Reviews </a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link link" href="#footer"> Contacts </a>
+      </li>
+    </ul>
+    <div class="meny-img">
+      <picture>
+        <source
+          media="(min-width:768px)"
+          srcset="/bcon_65_project-thestark/assets/mob_menu_tab-8f5fc38c.png 1x, /bcon_65_project-thestark/assets/mob_menu_tab@2x-f8f547d2.png 2x"
+        />
+        <source
+          media="(min-width:320px)"
+          srcset="/bcon_65_project-thestark/assets/mob_menu_mob-05dd933c.png 1x, /bcon_65_project-thestark/assets/mob_menu_mob@2x-2f0e12a9.png 2x"
+        />
+
+        <img
+          src="/bcon_65_project-thestark/assets/mob_menu_mob-05dd933c.png"
+          alt="camera on a milky background"
+          class="meny-photo-img"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+  </div>
+</div>
+
+      <!-- HERO -->
+      <section id="hero" class="hero">
+  <div class="container">
+    <div class="hero__wrapper">
+      <div class="hero__box">
+        <h1 class="hero__title">
+          Discover the magic of
+          <span class="hero__title-span">photography</span> in our school
+        </h1>
+        <p class="hero__subtitle">
+          Our photography school offers an unforgettable journey, where you can
+          learn the basics of composition, master technical skills, translate
+          your unique ideas.
+        </p>
+        <div class="hero__list-box">
+          <ul class="hero__students">
+            <li class="hero__students-item">
+              <picture>
+                <source
+                  media="(max-width:767px)"
+                  srcset="/bcon_65_project-thestark/assets/girl1_mob-43488cf3.png 1x, /bcon_65_project-thestark/assets/girl1_mob@2x-8d94d6cc.png 2x"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="/bcon_65_project-thestark/assets/girl1_desk-9c6450da.png 1x, /bcon_65_project-thestark/assets/girl1_desk@2x-ad123ce9.png 2x"
+                />
+                <img
+                  class="hero__students-img"
+                  src="/bcon_65_project-thestark/assets/girl1_mob-43488cf3.png"
+                  alt="photo-student1"
+                  loading="lazy"
+                />
+              </picture>
+            </li>
+            <li class="hero__students-item">
+              <picture>
+                <source
+                  media="(max-width:767px)"
+                  srcset="data:image/png;base64,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 1x, /bcon_65_project-thestark/assets/boy_mob@2x-98b52e48.png 2x"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="/bcon_65_project-thestark/assets/boy_desk-5daa49c6.png 1x, /bcon_65_project-thestark/assets/boy_desk@2x-103bdfc6.png 2x"
+                />
+                <img
+                  class="hero__students-img"
+                  src="data:image/png;base64,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"
+                  alt="photo-student2"
+                  loading="lazy"
+                />
+              </picture>
+            </li>
+            <li class="hero__students-item">
+              <picture>
+                <source
+                  media="(max-width:767px)"
+                  srcset="/bcon_65_project-thestark/assets/girl_mob-75ad0d25.png 1x, /bcon_65_project-thestark/assets/girl_mob@2x-1a7e0c96.png 2x"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="/bcon_65_project-thestark/assets/girl_desk-c9ecde01.png 1x, /bcon_65_project-thestark/assets/girl_desk@2x-146b0bc4.png 2x"
+                />
+                <img
+                  class="hero__students-img"
+                  src="/bcon_65_project-thestark/assets/girl_mob-75ad0d25.png"
+                  alt="photo-student3"
+                  loading="lazy"
+                />
+              </picture>
+            </li>
+            <li class="hero__students-item">
+              <a class="hero__students-link" href="#reviews">
+                <span class="hero__students-text">Our happy students</span>
+                <svg class="hero__students-svg" width="18" height="8.66">
+                  <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-arrow-right"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <ul class="hero__reviews">
+            <li class="hero__reviews-item">
+              <div class="hero__reviews-svg-box">
+                <svg class="hero__reviews-svg" width="20" height="20">
+                  <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="hero__reviews-item">
+              <h4 class="hero__reviews-title">Reviews</h4>
+              <p class="hero__reviews-text">+1500</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero__photo">
+        <picture>
+          <source
+            media="(min-width:1280px)"
+            srcset="/bcon_65_project-thestark/assets/photographer_desk-ac7c78f4.png 1x, /bcon_65_project-thestark/assets/photographer_desk@2x-12613a24.png 2x"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="/bcon_65_project-thestark/assets/photographer_tab-dcd9b991.png 1x, /bcon_65_project-thestark/assets/photographer_tab@2x-cab854a7.png 2x"
+          />
+          <source
+            media="(min-width:320px)"
+            srcset="/bcon_65_project-thestark/assets/photographer_mob-111a286f.png 1x, /bcon_65_project-thestark/assets/photographer_mob@2x-0fe71db8.png 2x"
+          />
+
+          <img
+            src="/bcon_65_project-thestark/assets/photographer_mob-111a286f.png"
+            alt="red head boy"
+            class="hero__photo-img"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </div>
+    <main>
+      <!-- ADVERTISEMENT -->
+      <section id="line" class="line">
+  <h2 class="visually-hidden">Not</h2>
+  <div class="line-div">
+    <div class="line_inner">
+      <p class="line_text">
+        Master <span class="line_text_span">your photography</span> skills with
+        us!
+      </p>
+
+      <p class="line_text">
+        Master <span class="line_text_span">your photography</span> skills with
+        us!
+      </p>
+    </div>
+  </div>
+</section>
+
+      <!-- ABOUT US -->
+      <section id="about" class="section-about">
+  <div class="container">
+    <div class="section-about-div">
+      <h2 class="about-title">About <span class="colored-us">Us</span></h2>
+      <div class="img-pars-us">
+        <picture>
+          <source
+            media="(min-width:1440px)"
+            srcset="/bcon_65_project-thestark/assets/about_1440-483f7815.png 1x, /bcon_65_project-thestark/assets/about_1440@2x-54d5c2af.png 2x"
+          />
+          <source
+            media="(min-width:1280px)"
+            srcset="/bcon_65_project-thestark/assets/about_desk-5ed9bcb5.png 1x, /bcon_65_project-thestark/assets/about_desk@2x-b4a419d9.png 2x"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="/bcon_65_project-thestark/assets/about_tab-a27e9f89.png 1x, /bcon_65_project-thestark/assets/about_tab@2x-99f717c0.png 2x"
+          />
+          <source
+            media="(min-width:320px)"
+            srcset="/bcon_65_project-thestark/assets/about_mob-7e56e139.png 1x, /bcon_65_project-thestark/assets/about_mob@2x-ee686349.png 2x"
+          />
+          <img
+            src="/bcon_65_project-thestark/assets/about_mob-7e56e139.png"
+            alt="photo"
+            class="about-img-v2"
+            loading="lazy"
+          />
+        </picture>
+        <ul class="about-par-list list">
+          <li class="about-par-item">
+            <p class="par-about">
+              Our photography school is designed to teach you everything you
+              need to know about this magical art. Regardless of your experience
+              or skill level, we offer a wide range of courses to suit your
+              needs and interests. Our teaching team consists of experienced
+              photographers who have many years of experience in this field.
+              They strive not only to share their knowledge, but also to inspire
+              you to develop and express your unique creativity.
+            </p>
+          </li>
+          <li class="about-par-item">
+            <p class="par-about">
+              Our courses cover a wide range of topics, from the basics of
+              photography and equipment use to professional image processing and
+              creating impressive compositions. You will have the opportunity to
+              learn the technical aspects of photography, discover your own
+              style and develop your own visual language.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- OUR COURSES -->
+      <section id="courses" class="courses">
+  <div class="container">
+    <div class="headline">
+      <h2 class="courses-title">
+        Our <span class="courses-accent">Courses</span>
+      </h2>
+      <p class="courses-text">
+        At our photography school, we offer a variety of courses that cover all
+        aspects of this fascinating art. Regardless of your experience or skill
+        level, we have courses to suit your needs and goals.
+      </p>
+    </div>
+    <ol class="courses-list">
+      <li class="courses-item">
+        <div class="courses-top-block">
+          <a href="#sign" class="courses-link">
+            <svg class="courses-icon" width="20" height="20">
+              <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-arrow-right-up"></use>
+            </svg>
+          </a>
+        </div>
+        <h3 class="courses-item-title">Basics of photography</h3>
+        <p class="courses-item-text">
+          During this course, you will be able to familiarize yourself with
+          different types of cameras, learn the basics of composition.
+        </p>
+      </li>
+      <li class="courses-item">
+        <div class="courses-top-block">
+          <a href="#sign" class="courses-link">
+            <svg class="courses-icon" width="20" height="20">
+              <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-arrow-right-up"></use>
+            </svg>
+          </a>
+        </div>
+        <h3 class="courses-item-title">Landscape photography</h3>
+        <p class="courses-item-text">
+          In this course, you'll learn how to choose the right angles, frame
+          landscapes, and create depth and perspective in your images.
+        </p>
+      </li>
+      <li class="courses-item">
+        <div class="courses-top-block">
+          <a href="#sign" class="courses-link">
+            <svg class="courses-icon" width="20" height="20">
+              <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-arrow-right-up"></use>
+            </svg>
+          </a>
+        </div>
+        <h3 class="courses-item-title">Portrait photography</h3>
+        <p class="courses-item-text">
+          During this course, you will learn to choose the right lighting,
+          reproduce the mood and expressions on the faces of the models.
+        </p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+      <!-- OUR MENTORS -->
+      <section id="mentors" class="mentors-section">
+  <div class="container">
+    <h2 class="mentors-title">Our<span class="mentors-span"> Mentors</span></h2>
+    <ul class="mentors-list list">
+      <li class="mentors-link link">
+        <picture class="pictures">
+          <source
+            srcset="/bcon_65_project-thestark/assets/girl_1-135009af.png 1x, /bcon_65_project-thestark/assets/girl_1@2x-2e465140.png 2x"
+          />
+          <img
+            src="/bcon_65_project-thestark/assets/girl_1-135009af.png"
+            alt="Frontend Developer"
+            width="180"
+            loading="lazy"
+          />
+        </picture>
+        <div class="ment">
+          <h3 class="mentors-name">Emilia Smith</h3>
+          <p class="mentors-description">1.5 years of experience</p>
+        </div>
+      </li>
+
+      <li class="mentors-link">
+        <picture class="pictures">
+          <source
+            srcset="/bcon_65_project-thestark/assets/boy_1-9f8b76ff.png 1x, /bcon_65_project-thestark/assets/boy_1@2x-ab727eeb.png 2x"
+          />
+          <img
+            src="/bcon_65_project-thestark/assets/boy_1-9f8b76ff.png"
+            alt="Frontend Developer"
+            width="180"
+            loading="lazy"
+          />
+        </picture>
+        <div class="ment">
+          <h3 class="mentors-name">Alex Lebedev</h3>
+          <p class="mentors-description">3.5 years of experience</p>
+        </div>
+      </li>
+
+      <li class="mentors-link">
+        <picture class="pictures">
+          <source
+            srcset="/bcon_65_project-thestark/assets/girl_2-c81ad540.png 1x, /bcon_65_project-thestark/assets/girl_2@2x-2c0e7253.png 2x"
+          />
+          <img
+            src="/bcon_65_project-thestark/assets/girl_2-c81ad540.png"
+            alt="Frontend Developer"
+            width="180"
+            loading="lazy"
+          />
+        </picture>
+        <div class="ment">
+          <h3 class="mentors-name">Mia Dubrovska</h3>
+          <p class="mentors-description">2.0 years of experience</p>
+        </div>
+      </li>
+
+      <li class="mentors-link">
+        <picture class="pictures">
+          <source
+            srcset="/bcon_65_project-thestark/assets/boy_2-e503635a.png 1x, /bcon_65_project-thestark/assets/boy_2@2x-ad629980.png 2x"
+          />
+          <img
+            src="/bcon_65_project-thestark/assets/boy_2-e503635a.png"
+            alt="Frontend Developer"
+            width="180"
+            loading="lazy"
+          />
+        </picture>
+        <div class="ment">
+          <h3 class="mentors-name">Eliot Kovalev</h3>
+          <p class="mentors-description">4.0 years of experience</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <!-- SIGN -->
+      <section id="sign" class="sign-section section">
+  <div class="container">
+    <div class="sign-text-container">
+      <h2 class="section-title">Sign <span class="colored-text">Up</span></h2>
+      <p class="section-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+
+      <form class="form-wrapper" action="#" name="sign_up_form">
+        <div class="sign-field">
+          <label class="sign-label" for="user-name"></label>
+          <input
+            class="sign-input"
+            type="text"
+            pattern="[a-яА-Яa-zA-Z\s]*"
+            name="user-name"
+            id="user-name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="sign-field">
+          <label class="sign-label" for="user-email"></label>
+          <input
+            class="sign-input"
+            type="email"
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+            name="user-email"
+            id="user-email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="sign-message">
+          <label class="sign-label" for="user-message"></label>
+          <textarea
+            class="sign-message-field sign-input"
+            name="user-message"
+            id="user-message"
+            rows="5"
+            placeholder="Message"
+            required
+          ></textarea>
+        </div>
+
+        <button class="sign-submit-btn" type="submit">Send</button>
+
+        <p class="sign-agreement">
+          By clicking on &#34;Send&#34; button, you agree to our
+          <a class="sign-agreement-link" href="">Privacy Policy,</a>
+          <br />
+          and allow Promodo to use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+
+    <div class="sign-image-container">
+      <picture class="sign-ill">
+        <source
+          media="(min-width: 1440px)"
+          srcset="/bcon_65_project-thestark/assets/block_desk1440-f4b090aa.png 1x, /bcon_65_project-thestark/assets/block_desk1440@2x-93b352ea.png 2x"
+        />
+
+        <source
+          media="(min-width: 1280px)"
+          srcset="/bcon_65_project-thestark/assets/block_desk-50f806e1.png 1x, /bcon_65_project-thestark/assets/block_desk@2x-ec37686a.png 2x"
+        />
+        <img
+          class="sign-ill"
+          src="/bcon_65_project-thestark/assets/block_desk-50f806e1.png"
+          alt="camera"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <!-- REVIEWS -->
+      <section class="section-reviews" id="reviews">
+  <div class="section-reviews-div container">
+    <h2 class="title-reviews">Reviews</h2>
+    <div class="reviews-box swiper">
+      <ul class="review-list list swiper-wrapper">
+        <li class="review-item swiper-slide">
+          <div class="stars-names">
+            <div class="img-title-job">
+              <img
+                class="reviewers-img"
+                srcset="/bcon_65_project-thestark/assets/user-3bb33313.png 1x, /bcon_65_project-thestark/assets/user@2x-721ca5d1.png 2x"
+                src="/bcon_65_project-thestark/assets/user-3bb33313.png"
+                alt="Abraham Baker"
+              />
+              <div class="title-par-review">
+                <h3 class="reviewers-name">Abraham Baker</h3>
+                <p class="review-job">Student</p>
+              </div>
+            </div>
+            <ul class="stars-list list">
+              <li class="stars-item">
+                <svg class="stars-svg" width="16" height="16">
+                  <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="stars-item">
+                <svg class="stars-svg" width="16" height="16">
+                  <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="stars-item">
+                <svg class="stars-svg" width="16" height="16">
+                  <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="stars-item">
+                <svg class="stars-svg" width="16" height="16">
+                  <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="stars-item">
+                <svg class="stars-svg" width="16" height="16">
+                  <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+
+          <p class="reviewers-text">
+            I am very pleased that I decided to enroll in photography school.
+            The teachers turned out to be very talented and experienced
+            professionals who share their knowledge and are dedicated to their
+            work. I was able to expand my skills and discover my own style.
+          </p>
+        </li>
+        <li class="review-item test swiper-slide">
+          <div class="stars-names">
+            <div class="img-title-job">
+              <img
+                class="reviewers-img"
+                srcset="/bcon_65_project-thestark/assets/user2-44fb1768.png 1x, /bcon_65_project-thestark/assets/user2@2x-78f7114a.png 2x"
+                src="/bcon_65_project-thestark/assets/user2-44fb1768.png"
+                alt="Amanda Lowery"
+              />
+              <div class="title-par-review">
+                <h3 class="reviewers-name">Amanda Lowery</h3>
+                <p class="review-job">Student</p>
+              </div>
+            </div>
+            <ul class="stars-list list">
+              <li class="stars-item">
+                <svg class="stars-svg" width="16" height="16">
+                  <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="stars-item">
+                <svg class="stars-svg" width="16" height="16">
+                  <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="stars-item">
+                <svg class="stars-svg" width="16" height="16">
+                  <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="stars-item">
+                <svg class="stars-svg" width="16" height="16">
+                  <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="stars-item">
+                <svg class="stars-svg" width="16" height="16">
+                  <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+
+          <p class="reviewers-text">
+            The courses at the photography school exceeded all my expectations.
+            I gained not only technical knowledge, but also inspiration and
+            motivation to reach new heights in my creativity. Hands-on classes
+            and workshops helped me understand different styles of photography.
+          </p>
+        </li>
+      </ul>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+      <div class="btn-up btn-up_hide"></div>
+    </main>
+    <!-- FOOTER -->
+    <footer id="footer" class="footer">
+  <div class="container">
+    <div class="footer-tablet-container">
+      <div class="footer-logo">
+        <a class="footer-logo-link link" href="/index.html">
+          <svg
+            class="footer-logo-icon"
+            width="123"
+            height="16"
+            aria-label="Logo"
+          >
+            <use href="/bcon_65_project-thestark/assets/sprite-1769a44c.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="footer-contact-list">
+          <li class="footer-contact-list-item">
+            <a class="footer-contact-link" href="tel:+380665438912"
+              >Uk: +38 066 543 8912</a
+            >
+          </li>
+          <li>Ukraine, Kyiv</li>
+        </ul>
+      </div>
+      <div class="footer-social-navigation">
+        <div class="footer-social">
+          <ul class="footer-social-list">
+            <li class="footer-social-list-item">
+              <a
+                class="footer-social-list-link"
+                href="https://www.instagram.com/goitclub/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Instagram</a
+              >
+            </li>
+            <li class="footer-social-list-item">
+              <a
+                class="footer-social-list-link"
+                href="https://www.facebook.com/goITclub/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Facebook</a
+              >
+            </li>
+            <li class="footer-social-list-item">
+              <a
+                class="footer-social-list-link"
+                href="https://www.youtube.com/c/GoIT"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+        <nav class="footer-navigation">
+          <ul class="footer-navigaion-list">
+            <li class="footer-navigaion-list-item">
+              <a href="#about" class="footer-navigaion-list-link">About us</a>
+            </li>
+            <li class="footer-navigaion-list-item">
+              <a href="#courses" class="footer-navigaion-list-link"
+                >Our courses</a
+              >
+            </li>
+            <li class="footer-navigaion-list-item">
+              <a href="#mentors" class="footer-navigaion-list-link"
+                >Our mentors</a
+              >
+            </li>
+            <li class="footer-navigaion-list-item">
+              <a href="#reviews" class="footer-navigaion-list-link">Reviews</a>
+            </li>
+            <li class="footer-navigaion-list-item">
+              <a href="#footer" class="footer-navigaion-list-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <form class="footer-form">
+        <label class="footer-label" for="email">
+          <input
+            class="footer-input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            required
+            title="Please enter a valid email address"
+          />
+        </label>
+        <button class="footer-button" type="submit">Go</button>
+      </form>
+    </div>
+    <div class="footer-copyright">
+      <ul class="footer-copyright-list">
+        <li class="footer-copyright-list-item">
+          <a href="" class="footer-copyright-link">Privacy Policy</a>
+          <a href="" class="footer-copyright-link">Public Offering Agreement</a>
+        </li>
+        <li class="footer-copyright-list-item">
+          <p class="footer-copyright-link">2023 Focus Frame</p>
+          <p class="footer-copyright-link">© All rights reserved</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Мобільне Меню -->
+    
+    
+  </body>
+</html>
