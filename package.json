@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-thestark/",
+    "build": "vite build --base=/bcon_65_project-thestark/",
     "preview": "vite preview"
   },
   "devDependencies": {
